@@ -1,6 +1,6 @@
 {
-  "name": "replace-me",
-  "productName": "replace-me",
+  "name": "data-commons-mvp",
+  "productName": "data-commons-mvp",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".vite/build/main.js",
