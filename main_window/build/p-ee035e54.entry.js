@@ -1,0 +1,2 @@
+import{r as o,h as r,H as s}from"./p-4f4b7319.js";import{g as t}from"./p-18d3a1c6.js";const i="ion-item-group{display:block}";const e="ion-item-group{display:block}";const p=class{constructor(r){o(this,r)}render(){const o=t(this);return r(s,{role:"group",class:{[o]:true,[`item-group-${o}`]:true,item:true}})}};p.style={ios:i,md:e};export{p as ion_item_group};
+//# sourceMappingURL=p-ee035e54.entry.js.map
