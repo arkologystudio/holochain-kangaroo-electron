@@ -1,9 +1,13 @@
 import { defineConfig } from './src/main/defineConfig';
 
 export default defineConfig({
-  appId: 'org.holochain.kangaroo-electron',
-  productName: 'Holochain Kangaroo Electron',
+  appId: 'data-commons-mvp',
+  productName: 'P2P Data Commons',
   version: '0.1.0',
+  webhapp: {
+    url: 'https://github.com/arkologystudio/data-commons-mvp/releases/tag/v0.1.1',
+    sha256: '27bece98909eae022f362f775fb6502528020a698234cdfce4f0637e0ff2c6d0',
+  },
   macOSCodeSigning: false,
   windowsEVCodeSigning: false,
   fallbackToIndexHtml: true,
