@@ -77,7 +77,7 @@ The general workflow goes as follows:
    - specifying the `webhapp` field in `kangaroo.config.ts` pointing to a URL where CI can fetch it and a sha256 to verify its integrity
    - remove `pouch/*.webhapp` from the `.gitignore` file and commit your .webhapp to git.
 
-2. Create a draft release on github and set its "Tag verion" to the value of the `version` field that you chose in `kangaroo.config.ts` and prefix it with `v`, for example `v0.1.0`.
+2. Create a draft release on github and set its "Tag version" to the value of the `version` field that you chose in `kangaroo.config.ts` and prefix it with `v`, for example `v0.1.0`.
 
 3. Merge the main branch into the release branch and push it to github to trigger the release workflow.
 
