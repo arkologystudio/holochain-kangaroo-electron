@@ -1,6 +1,6 @@
 
 import { InstalledAppId } from "@holochain/client";
-import { ZomeCallUnsignedNapi } from "holochain-lair-signer";
+// import { ZomeCallUnsignedNapi } from "holochain-lair-signer";
 
 export interface LauncherEnvironment {
   APP_INTERFACE_PORT?: number;
@@ -9,7 +9,7 @@ export interface LauncherEnvironment {
 }
 
 export interface ElectronAPICalls {
-  signZomeCall(z: ZomeCallUnsignedNapi): any;
+  // signZomeCall(z: ZomeCallUnsignedNapi): any;
   handleStatus(callback: (e: Event, msg: string) => void): void;
   handleLauncherEnv(callback: (e: Event, env: LauncherEnvironment) => void): void;
 }
