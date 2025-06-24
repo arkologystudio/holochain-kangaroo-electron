@@ -3274,33 +3274,6 @@ hasown@^2.0.0, hasown@^2.0.1, hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
-holochain-lair-signer-darwin-arm64@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/holochain-lair-signer-darwin-arm64/-/holochain-lair-signer-darwin-arm64-0.1.1.tgz"
-  integrity sha512-Ni+B4kuxDCkiVfS3pKuBXJoiQeaak4VtS0FMbXN9FYRib9G8QEkCHyzXg4OvjN4mTxADl4Ck+6EA/HxILe0uXA==
-
-holochain-lair-signer-darwin-universal@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/holochain-lair-signer-darwin-universal/-/holochain-lair-signer-darwin-universal-0.1.1.tgz"
-  integrity sha512-endi/AcHswKuke0zTH8uPh8Jar2VnhIL2lLmfSSf1rEQLCtn6JnypxqJij/fnA2L+E1oh8YBkpb+syH6LyQ9cg==
-
-holochain-lair-signer@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/holochain-lair-signer/-/holochain-lair-signer-0.1.1.tgz"
-  integrity sha512-uafU1E/JetWi4ss5B4v8wBorZXcUhjqCVEucaBv5nc6M0d7hNg1IB4fdgdDeULeCZSHlEqs0iOVdKSF89LrsSg==
-  optionalDependencies:
-    holochain-lair-signer-android-arm-eabi "0.1.1"
-    holochain-lair-signer-android-arm64 "0.1.1"
-    holochain-lair-signer-darwin-arm64 "0.1.1"
-    holochain-lair-signer-darwin-universal "0.1.1"
-    holochain-lair-signer-darwin-x64 "0.1.1"
-    holochain-lair-signer-freebsd-x64 "0.1.1"
-    holochain-lair-signer-linux-arm-gnueabihf "0.1.1"
-    holochain-lair-signer-linux-arm64-musl "0.1.1"
-    holochain-lair-signer-linux-x64-gnu "0.1.1"
-    holochain-lair-signer-win32-ia32-msvc "0.1.1"
-    holochain-lair-signer-win32-x64-msvc "0.1.1"
-
 hosted-git-info@^4.0.1, hosted-git-info@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-4.1.0.tgz"
