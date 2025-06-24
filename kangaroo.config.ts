@@ -2,7 +2,7 @@ import { defineConfig } from './src/main/defineConfig';
 
 export default defineConfig({
   appId: 'data-commons-mvp',
-  productName: 'P2P Data Commons',
+  productName: 'P2P Data Commons (Beta)',
   version: '0.0.1',
   webhapp: {
     url: 'https://github.com/arkologystudio/data-commons-mvp/blob/release/workdir/data-commons-mvp.webhapp',
