@@ -3,11 +3,11 @@ import { defineConfig } from './src/main/defineConfig';
 export default defineConfig({
   appId: 'data-commons-mvp',
   productName: 'P2P Data Commons',
-  version: '0.2.0',
-  // webhapp: {
-  //   url: 'https://github.com/arkologystudio/data-commons-mvp/releases/tag/v0.1.1',
-  //   sha256: '27bece98909eae022f362f775fb6502528020a698234cdfce4f0637e0ff2c6d0',
-  // },
+  version: '0.0.1',
+  webhapp: {
+    url: 'https://github.com/arkologystudio/data-commons-mvp/blob/release/workdir/data-commons-mvp.webhapp',
+    sha256: '8e649ca5cea28a19b221e270618f57564b1dcfaa8c6cf2a6911a299aebb1cfd8',
+  },
   macOSCodeSigning: false,
   windowsEVCodeSigning: false,
   fallbackToIndexHtml: true,
