@@ -4,10 +4,10 @@ export default defineConfig({
   appId: 'data-commons-mvp',
   productName: 'P2P Data Commons (Beta)',
   version: '0.0.1',
-  webhapp: {
-    url: 'https://github.com/arkologystudio/data-commons-mvp/blob/release/workdir/data-commons-mvp.webhapp',
-    sha256: '8e649ca5cea28a19b221e270618f57564b1dcfaa8c6cf2a6911a299aebb1cfd8',
-  },
+  // webhapp: {
+  //   url: 'https://github.com/arkologystudio/data-commons-mvp/blob/release/workdir/data-commons-mvp.webhapp',
+  //   sha256: '8e649ca5cea28a19b221e270618f57564b1dcfaa8c6cf2a6911a299aebb1cfd8',
+  // },
   macOSCodeSigning: false,
   windowsEVCodeSigning: false,
   fallbackToIndexHtml: true,
